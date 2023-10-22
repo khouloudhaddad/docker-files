@@ -10,7 +10,7 @@ services:
       - ./php:/var/www/html
     build:
       context: .
-      dockerfile: DockerFile
+      dockerfile: Dockerfile
   db: 
     image: mysql:8.1
     container_name: mysql8
