@@ -8,7 +8,7 @@ $dsn = 'mysql:host='. DBHOST . ';dbname='. DBNAME;
 
 try{
     $db = new PDO($dsn, DBUSER, DBPASS);
-    echo "Connected";
+    //echo "Connected";
 }catch(PDOException $exception){
     echo "Un error has occured: ".$exception->getMessage();
     die;
